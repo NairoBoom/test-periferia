@@ -1,0 +1,23 @@
+.tilt-card {
+  position: relative;
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.tilt-glare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+  mix-blend-mode: overlay;
+}

@@ -83,8 +83,8 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
-cd prueba-periferia
+git clone [<url-del-repositorio>](https://github.com/NairoBoom/test-periferia.git)
+cd test-periferia
 ```
 
 2. Construye y levanta todos los servicios:
